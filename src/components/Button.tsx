@@ -19,7 +19,7 @@ export default function Button(props: ButtonProps | AnchorProps) {
 
     return (
         <button className='button' {...props}>
-            Test
+            {props.children}
         </button>
     );
 }
